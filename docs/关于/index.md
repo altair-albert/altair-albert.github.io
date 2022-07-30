@@ -5,7 +5,7 @@
 
 互联网时代，碎片化的知识太多，但是大多都不成体系，关联性较小。机器人人相关的知识更是如此，大部分的知识都缺少上下文，不利于学习和理解。所以我整理了个人在机器人方面的点滴知识。
 
-本文是基于 [[https://obsidian.md/ | Obsidian]] 双链模型进行编写，基于 [[https://www.mkdocs.org/|MkDocs]] 进行发布。内容主要范围是机器人和系统软件。
+本文是基于 [Obsidian](https://obsidian.md/) 双链模型进行编写，基于 [MkDocs](https://www.mkdocs.org) 进行发布。内容主要范围是机器人和系统软件。
 
 
 # 这不是什么
@@ -13,7 +13,7 @@
 这不是一个专栏，也不是一部传统意义上的书籍，也不是 🐛 记录。
 本文是静态网站，目前在`Github`部署。
 
-**地址** [[https://altair-albert.github.io/| Github Page]]
+**地址** [Github Page](https://altair-albert.github.io/)
 
 
 # 联系我
