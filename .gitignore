@@ -1,0 +1,4 @@
+**/public/
+**/.obsidian/
+**/node_modules/
+.venv

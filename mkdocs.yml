@@ -1,0 +1,48 @@
+site_name: 风雪的数字花园
+site_url: https://altair-albert.github.io/
+site_description: '机器人, 算法, Rust, C/C++, Python, Java'
+site_author: "Albert Lv <altair.albert@gmail.com>"
+
+copyright: '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可。'
+
+theme:
+    name: null
+    custom_dir: theme
+
+nav:
+  - 基础工具: 基础工具/index.md
+  - 机器人: 机器人/index.md
+  - 机器视觉: 机器视觉/index.md
+  - 杂项: 杂项/index.md
+  - 关于: 关于/index.md
+
+# Extensions
+markdown_extensions:
+  - footnotes
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - def_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+  - toc:
+      permalink: true
+
+plugins:
+  - roamlinks
+  - mermaid2
+
+
+extra_css:
+  - css/fix.css
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mermaid/dist/mermaid.min.js

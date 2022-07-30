@@ -1,0 +1,5 @@
+/* image in center */
+.markdown-section img {
+    display: block;
+    margin: auto;
+}
