@@ -5,24 +5,21 @@
  * Distributed under terms of the MIT license.
  */
 window.MathJax = {
-    tex : {
-        inlineMath : [ [ "\\(", "\\)" ] ],
-        displayMath : [ [ "\\[", "\\]" ] ],
-        processEscapes : true,
-        processEnvironments : true
-    },
-    options : {
-        ignoreHtmlClass : ".*|",
-        processHtmlClass : "arithmatex"
-    }
+  tex: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    processEscapes: true,
+    processEnvironments: true,
+  },
+  options: {
+    ignoreHtmlClass: ".*|",
+    processHtmlClass: "arithmatex",
+  },
 };
-
-document.subscribe(() => {
-                        MathJax.typesetPromise()})
 
 // baidu analysis
 var _hmt = _hmt || [];
-(function() {
+(function () {
   var hm = document.createElement("script");
   hm.src = "https://hm.baidu.com/hm.js?22cd821b8226d5aef228d8541c9f279c";
   var s = document.getElementsByTagName("script")[0];
@@ -37,7 +34,9 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-LPSL3YGLRT');
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-LPSL3YGLRT");
 })();
