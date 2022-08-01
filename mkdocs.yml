@@ -37,12 +37,22 @@ markdown_extensions:
 plugins:
   - roamlinks
   - mermaid2
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+      js_files:
+          - js/mathjax.js
+      css_files:
+          - css/fix.css
 
 
 extra_css:
   - css/fix.css
 extra_javascript:
-  - javascripts/mathjax.js
+  - js/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js
