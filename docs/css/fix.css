@@ -1,13 +1,5 @@
 /* image in center */
-.markdown-section img {
+.md-content img {
     display: block;
     margin: auto;
-}
-
-.page-wrapper {
-    min-height: 85%;
-}
-
-.markdown-section p {
-    font-size: 2rem;
 }
