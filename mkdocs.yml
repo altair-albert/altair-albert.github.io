@@ -13,28 +13,13 @@ theme:
     - navigation.instant
     - toc.follow
 
-nav:
-  #- 基础工具: 基础工具/index.md
-  #- 机器人: 机器人/index.md
-  #- 机器视觉: 机器视觉/index.md
-  #- 杂项: 杂项/index.md
-  #- 关于: 关于/index.md
-
 # Extensions
 markdown_extensions:
   - footnotes
-  - attr_list
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.tasklist:
       custom_checkbox: true
-  - def_list
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-
   - toc:
       permalink: true
 
