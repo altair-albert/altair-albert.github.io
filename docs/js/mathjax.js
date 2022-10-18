@@ -1,9 +1,4 @@
-/*
- * mathjax.js
- * Copyright (C) 2022 Albert Lv <altair.albert@yahoo.com>
- *
- * Distributed under terms of the MIT license.
- */
+// for MathJax
 window.MathJax = {
   tex: {
     inlineMath: [["\\(", "\\)"]],
@@ -16,6 +11,10 @@ window.MathJax = {
     processHtmlClass: "arithmatex",
   },
 };
+
+document$.subscribe(() => {
+  MathJax.typesetPromise()
+});
 
 // baidu analysis
 var _hmt = _hmt || [];
