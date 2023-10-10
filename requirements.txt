@@ -2,5 +2,6 @@ mkdocs
 mkdocs-material
 mkdocs-material-extensions
 mkdocs-mermaid2-plugin
-mkdocs-roamlinks-plugin
 mkdocs-minify-plugin
+mkdocs-obsidian-bridge
+mkdocs-include-dir-to-nav

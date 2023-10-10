@@ -7,10 +7,17 @@ copyright: '本作品采用<a rel="license" href="http://creativecommons.org/lic
 
 theme:
   name: material
+  icon:
+    logo: material/flask-outline
   language: zh
   features:
     - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.instant
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.prune
     - toc.follow
 
 # Extensions
@@ -22,10 +29,13 @@ markdown_extensions:
       custom_checkbox: true
   - toc:
       permalink: true
+      baselevel: 2
 
 plugins:
-  - tags
-  - roamlinks
+  - tags:
+      tags_file: tags.md
+  - obsidian-bridge
+  - include_dir_to_nav
   - minify:
       minify_html: true
       minify_js: true
@@ -37,9 +47,17 @@ plugins:
       css_files:
           - css/fix.css
 
-google_analytics:
-  - G-LPSL3YGLRT
-  - auto
+nav:
+  - 基础工具: '基础工具/'
+  - 机器人: '机器人/'
+  - 机器视觉: '机器视觉/'
+  - 归类: tags.md
+  - 关于: '关于/'
+
+extra:
+  analytics:
+    provider: google
+    property: G-LPSL3YGLRT
 
 extra_css:
   - css/fix.css
