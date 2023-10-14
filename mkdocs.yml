@@ -30,12 +30,17 @@ markdown_extensions:
   - toc:
       permalink: true
       baselevel: 2
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 plugins:
   - tags:
       tags_file: tags.md
   - obsidian-bridge
   - include_dir_to_nav
+  - callouts
+  - search
   - minify:
       minify_html: true
       minify_js: true
@@ -51,6 +56,7 @@ nav:
   - 基础工具: '基础工具/'
   - 机器人: '机器人/'
   - 机器视觉: '机器视觉/'
+  - 杂项: '杂项/'
   - 归类: tags.md
   - 关于: '关于/'
 
